@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全预警与拦截情报平台</title>
+    <link rel="stylesheet" href="./bootstrap.min.css"/>
+    <link rel="stylesheet" href="./classic.css">
+    <link rel="stylesheet" href="./main.css"> 
+    <link rel="stylesheet" href="./jquery.cxcalendar.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default clearfix" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand">安全预警与拦截情报平台</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav nav-pills pull-right">
+						<li><a href="index.html">总览</a></li>
+	                    <li><a href="yizhi.html">已知拦截</a></li>
+	                    <li><a href="weizhi.html">未知拦截</a></li>
+	                    <li><a href="attack.html">攻击地图</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div>
+		<p class="tittle1" style="margin-left: 3%">攻击流量统计</p>
+		<div class="row" style="width: 100%">
+			<div class="wrap col-md-2" style="margin-left: 3%">
+    			<input id="date_a" placeholder="选择日期" name="mydate" type="text" readonly> 
+			</div>
+			<div class="btn-group btn-group-sm col-md-3" style="text-align: right;">
+				<button id="day" type="button" class="btn btn-default">日</button>
+				<button id="week" type="button" class="btn btn-default">周</button>
+				<button id="month" type="button" class="btn btn-default">月</button>
+			</div>
+		</div>
+		<div id="line" style="height:380px;width: 97%"></div>
+		<div id="line1" style="height:380px;width: 1304px;display: none;"></div>
+		<div id="line2" style="height:380px;width: 1304px;display: none;"></div>
+	</div>
+	
+	<p id="p_right" align="right">开始使用系统。。。。。。。</p>
+	<div>
+		<p class="tittle1" style="margin-left: 3%">防御模块状态</p>
+        <div id="exampleindex" ></div>
+	</div>
+<script src="./jquery.min.js" type="text/javascript"></script>
+<script src="./bootstrap.min.js" type="text/javascript"></script>
+<script src="./echarts.min.js" type="text/javascript"></script>
+<script src="./main.js" type="text/javascript"></script>
+<script src="./jquery.cxcalendar.min.js"></script>
+<script src="./jquery.cxcalendar.languages.js"></script>
+<script src="./myjquery.columns.js"></script>
+</body>
+</html>
