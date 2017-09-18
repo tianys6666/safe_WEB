@@ -18,17 +18,18 @@
 
 >本项目使用Python语言做后台，HTML语言和bootstrap框架开发前端页面，实现了一个安全预警与拦截情报平台。平台信息数据存储在MySQL数据库中。平台实现对所添加网站的防御状态进行监测，并且给出信息，在页面上进行表格展示。同时平台可以统计每天的网站受攻击次数，并能可视化展示。对于平台收到的攻击类型、时间等信息，平台也能给出报告。平台还能获取攻击IP，确定攻击地点，并在可视化地图上显示。
 
-![](https://github.com/tianys6666/Heihe_system/blob/master/image/qq.png)  
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s1.png)  
 >图1   安全预警与情报拦截平台结构
 
-![](https://github.com/tianys6666/Heihe_system/blob/master/image/h2.png)  
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s2.png)  
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s3.png)
 >图2   安全预警与情报拦截平台部分数据存储结构
 
-![](https://github.com/tianys6666/Heihe_system/blob/master/image/h3.png)
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s4.png)
 >图3    安全预警与情报拦截平台总览统计页面
 
-![](https://github.com/tianys6666/Heihe_system/blob/master/image/h4.png)
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s5.png)
 >图4    安全预警与情报拦截平台已知威胁统计页面
 
-![](https://github.com/tianys6666/Heihe_system/blob/master/image/h5.png)
+![](https://github.com/tianys6666/safe_WEB/blob/master/image/s6.png)
 >图5   安全预警与情报拦截平台地图攻击统计页面
